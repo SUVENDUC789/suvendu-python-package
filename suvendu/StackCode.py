@@ -1,4 +1,5 @@
 # Implement stack operation (push,pop,display) using list,function (menu driven).
+stack='''
 def isEmpty(stack_top):
     if stack_top == -1:
         return 1
@@ -30,15 +31,17 @@ def Pop(stack_top, stack):
         stack_top -= 1
     return stack_top
 
+
 def display(stack_top, stack):
-    if isEmpty(stack_top): 
+    if isEmpty(stack_top):
         print("Stack is empty ! ...")
-    else :
+    else:
         print("Stack element are :> ")
-        size=len(stack)-1
-        while size>=0 :
+        size = len(stack)-1
+        while size >= 0:
             print(stack[size])
-            size-=1
+            size -= 1
+
 
 if __name__ == '__main__':
     stack_top = -1
@@ -60,3 +63,5 @@ if __name__ == '__main__':
             exit()
         else:
             print("Please enter correct choice !...")
+            
+'''
