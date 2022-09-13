@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: suvendu
+Version: 1.1.1
+Summary: Suvendu Chowdhury create this python package | Also I am a student and an enthusiastic techie.
+Home-page: UNKNOWN
+Author: Suvendu Chowdhury
+License: UNKNOWN
+Platform: UNKNOWN
+
+In the same way, a package in Python takes the concept of the modular approach to next logical level. As you know, a module can contain multiple objects, such as classes, functions, etc. A package can contain one or more relevant modules. Physically, a package is actually a folder containing one or more module files.
+
